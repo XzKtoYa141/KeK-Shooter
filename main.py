@@ -1,11 +1,6 @@
 from typing import Any
 from pygame import *
-from PyQt5.QtGui import *
-import os
-from PIL import Image
-from PIL import ImageFilter
-from PIL.ImageQt import ImageQt
-from PIL.ImageFilter import *
+
 
 mixer.init()
 mixer.music.load('space.ogg')
